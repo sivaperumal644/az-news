@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:context="com.example.siva.aznews.MainActivity">
+
+    <group
+        android:id="@+id/group_1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/item1"
+            android:title="ABOUT APP" />
+
+    </group>
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/s"
+            android:title="DEVELOPED BY"
+            />
+        <item
+            android:icon="@drawable/identity"
+            android:title="K SIVA PERUMAL"/>
+    </group>
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/email"
+            android:icon="@drawable/gmail"
+            android:title="sivaperumal644@gmail.com"/>
+    </group>
+    <group
+        android:id="@+id/group_4"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/github"
+            android:icon="@drawable/github"
+            android:title="https://github.com/sivaperumal644">
+        </item>
+    </group>
+    <group
+        android:id="@+id/group_5"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/simple"
+            android:title=""/>
+    </group>
+</menu>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ABOUT THE APP"
+            android:paddingTop="15dp"
+            android:textColor="#0149f1"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic"
+            android:text="The news in this app has been taken from newsapi and ESPNcricinfo. "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Newsapi"
+            android:textColor="#5591c6"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:text="News API is a simple HTTP REST API for searching and retrieving live articles from all over the web. You can search for articles with any combination .You need an API key to use the API - this is a unique key that identifies your requests. They're free for development, open-source, and non-commercial use. "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ESPNcricinfo"
+            android:textColor="#5591c6"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:textStyle="italic"
+            android:textColor="@android:color/black"
+            android:text="Set up in 1996, Cricinfo is the world's leading cricket website followed by millions around the world and provides cricket content for a variety of platforms globally - from TV to mobile phones. Cricinfo is a part of ESPN. The Worldwide Leader in Sports is the leading multinational, multimedia sports entertainment company featuring the broadest portfolio of multimedia sports assets with over 50 business entities."/>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relative_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:launchMode="singleTop">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+            android:id="@+id/list_health"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:dividerHeight="0dp" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <!-- Empty view is only visible when the list has no items. -->
+    <TextView
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textAppearance="?android:textAppearanceMedium"/>
+
+    <!-- Loading indicator is only shown before the first load -->
+    <ProgressBar
+        android:id="@+id/loading_indicator"
+        style="@style/Widget.AppCompat.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>
